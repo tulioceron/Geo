@@ -3,7 +3,7 @@ function initialize(lat, lon) {
 				//Posición del mapa
 				var latlng = new google.maps.LatLng(lat, lon);
 				var myOptions = {
-					zoom: 8,
+					zoom: 32,
 					center: latlng,
 					mapTypeId: google.maps.MapTypeId.ROADMAP
 				};
